@@ -43,6 +43,44 @@
       font-size: 13px !important;
     }
   }
+.footer-padding {
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+}
+
+.footer-padding {
+  padding-left: 18px !important;
+  padding-right: 18px !important;
+}
+
+.footer-social-item {
+  padding-left: 6px !important;
+  padding-right: 6px !important;
+}
+
+.footer-social-text {
+  font-size: 10px !important;
+  padding-left: 5px !important;
+}
+
+.footer-icon-box {
+  width: 24px !important;
+  height: 24px !important;
+}
+
+.footer-legal {
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+}
+
+.footer-social-inner {
+  margin: 0 auto !important;
+}
+
+.footer-legal {
+  padding-left: 18px !important;
+  padding-right: 18px !important;
+}
 </style>
 </head>
 
@@ -316,29 +354,27 @@
 <!-- ========================= -->
 
 <tr>
-  <td style="padding:0 50px 40px 50px;">
+  <td class="footer-padding" style="padding:0 50px 40px 50px;background:#FFFFFF;">
 
     <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation"
       style="border-top:1px solid #FF8FB5;border-bottom:1px solid #FFB3CC;">
 
       <!-- Social Links -->
       <tr>
-        <td align="center" style="padding:22px 0 22px 0;">
+        <td align="center" style="padding:24px 0 22px 0;">
 
-          <table cellpadding="0" cellspacing="0" border="0" role="presentation" align="center">
-
+          <table class="footer-social-table" cellpadding="0" cellspacing="0" border="0" role="presentation" align="center">
             <tr>
 
               <!-- Instagram -->
-              <td align="center" style="padding:0 18px;">
+              <td class="footer-social-item" align="center" style="padding:0 14px;">
                 <a href="https://google.com" style="text-decoration:none;color:#222222;">
 
-                  <table cellpadding="0" cellspacing="0" border="0" role="presentation">
+                  <table class="footer-social-inner" cellpadding="0" cellspacing="0" border="0" role="presentation">
                     <tr>
                       <td align="center" valign="middle"
                         style="width:28px;height:28px;border:2px solid #FF4F8B;border-radius:7px;">
 
-                        <!-- Instagram Icon -->
                         <svg xmlns="http://www.w3.org/2000/svg"
                              width="16"
                              height="16"
@@ -368,15 +404,14 @@
               </td>
 
               <!-- LinkedIn -->
-              <td align="center" style="padding:0 18px;">
+              <td class="footer-social-item" align="center" style="padding:0 14px;">
                 <a href="https://google.com" style="text-decoration:none;color:#222222;">
 
-                  <table cellpadding="0" cellspacing="0" border="0" role="presentation">
+                  <table class="footer-social-inner" cellpadding="0" cellspacing="0" border="0" role="presentation">
                     <tr>
                       <td align="center" valign="middle"
                         style="width:28px;height:28px;border:2px solid #FF7A30;border-radius:7px;">
 
-                        <!-- LinkedIn Icon -->
                         <svg xmlns="http://www.w3.org/2000/svg"
                              width="15"
                              height="15"
@@ -406,15 +441,14 @@
               </td>
 
               <!-- Website -->
-              <td align="center" style="padding:0 18px;">
+              <td class="footer-social-item footer-social-item-last" align="center" style="padding:0 14px;">
                 <a href="https://google.com" style="text-decoration:none;color:#222222;">
 
-                  <table cellpadding="0" cellspacing="0" border="0" role="presentation">
+                  <table class="footer-social-inner" cellpadding="0" cellspacing="0" border="0" role="presentation">
                     <tr>
                       <td align="center" valign="middle"
                         style="width:28px;height:28px;border:2px solid #222222;border-radius:50%;">
 
-                        <!-- Globe Icon -->
                         <svg xmlns="http://www.w3.org/2000/svg"
                              width="16"
                              height="16"
@@ -444,8 +478,63 @@
               </td>
 
             </tr>
-
           </table>
+
+        </td>
+      </tr>
+
+      <!-- Company Info -->
+      <tr>
+        <td align="center" style="padding:0 0 20px 0;font-family:Arial, Helvetica, sans-serif;color:#777777;font-size:13px;line-height:22px;">
+
+          <strong style="color:#222222;font-size:14px;">
+            FlowCRM
+          </strong>
+
+          <br>
+
+          Marketing Automation &amp; CRM Solutions
+
+          <br>
+
+          <a href="mailto:marketing@flowcrm.com"
+             style="color:#777777;text-decoration:none;">
+            marketing@flowcrm.com
+          </a>
+
+          <br>
+
+          <a href="https://google.com"
+             style="color:#777777;text-decoration:none;">
+            flowcrm.com
+          </a>
+
+        </td>
+      </tr>
+
+      <!-- Legal / Unsubscribe -->
+      <tr>
+        <td class="footer-legal" align="center" style="padding:0 0 24px 0;font-family:Arial, Helvetica, sans-serif;color:#999999;font-size:12px;line-height:20px;">
+
+          You’re receiving this email because you expressed interest in content related to marketing automation and CRM.
+
+          <br>
+
+          <a href="https://google.com"
+             style="color:#999999;text-decoration:underline;">
+            Manage preferences
+          </a>
+
+          <span style="color:#D9C8C0;padding:0 6px;">|</span>
+
+          <a href="https://google.com"
+             style="color:#999999;text-decoration:underline;">
+            Unsubscribe
+          </a>
+
+          <br><br>
+
+          © 2026 FlowCRM. All rights reserved.
 
         </td>
       </tr>
